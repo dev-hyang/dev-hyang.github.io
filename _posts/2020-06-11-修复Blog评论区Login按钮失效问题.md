@@ -1,13 +1,14 @@
 ---
 layout:     post
-title:      2020-06-11修复Blog评论区Login按钮失效问题
+title:      修复Blog评论区Login按钮失效问题
 subtitle:   Fix the bug of invalid "Login with GitHub" button in the gitalk comment area
 date:       2020-06-11
 author:     Elon
 header-img: img/post-bg-desk.jpg
 catalog: true
 tags:
-    - github, gitalk, comment
+    - github
+    - gitalk
 ---
 
 ## How to setup your Gitalk with your personal blog
