@@ -11,7 +11,7 @@ github_repo: "https://github.com/elon-hangyang/elon-hangyang.github.io.git" # yo
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Keep in awe."
+sidebar-about-description: "Your time is limited, so dont waste it living someone else's life. Have the courage to follow your heart and intuition."
 sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
