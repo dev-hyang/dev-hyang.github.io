@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      HTML5 Practice
-subtitle:   HTML full course - build a website tutorial
+subtitle:   2020-06-25-HTML full course - build a website tutorial
 date:       2020-06-25
 author:     Elon
 header-img: img/post-bg-coffee.jpg

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Fix the bug of invalid "Login" button
+title:      2020-06-11-Fix the bug of invalid "Login" button
 subtitle:   Gitalk configuration
 date:       2020-06-11
 author:     Elon

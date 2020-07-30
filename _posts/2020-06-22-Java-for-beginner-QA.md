@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Java Tutorials - Q & A
-subtitle:   Top Interview Questions and resources for Java
+subtitle:   2020-06-22-Top Interview Questions and resources for Java
 date:       2020-06-22
 author:     Elon
 header-img: img/post-bg-coffee.jpg

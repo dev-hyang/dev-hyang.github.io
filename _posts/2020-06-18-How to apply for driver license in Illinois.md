@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      How to apply for driver license in Illinois
+title:      2020-06-18-How to apply for driver license in Illinois
 subtitle:   life in Chicago
 date:       2020-06-18
 author:     Elon
