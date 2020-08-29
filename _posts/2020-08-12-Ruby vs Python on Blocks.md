@@ -3,7 +3,7 @@ layout:     post
 title:      2020-08-12-Ruby vs Python on Blocks
 subtitle:   
 date:       2020-08-12
-author:     BY
+author:     BY Elon
 header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
