@@ -29,9 +29,7 @@ MERN stack is very similar to MEAN stack where <strong>A</strong> stands for <q>
 
 ## Add Bootstrap To the React Project
 We need to add Bootstrap framework to build UI with Bootstrap's CSS libraries. Rewrite the App.js files with below contents:
-<q>
-	
-	import React, { Component } from "react";
+  import React, { Component } from "react";
 	import "bootstrap/dist/css/bootstrap.min.css";
 
 	class App extends Component {
@@ -45,12 +43,9 @@ We need to add Bootstrap framework to build UI with Bootstrap's CSS libraries. R
 		}
 	}
 	export default App;
-</q>
 
 ## Set Up React Router
-$npm install react-router-dom
-After install router package, we could add the routing configuration in App.js. Again, we rewrite our App.js file by below contents:
-<q>
+<code>$npm install react-router-dom</code> After install router package, we could add the routing configuration in App.js. Again, we rewrite our App.js file by below contents:
 	import {BrowserRouter as Router, Route, Link } from "react-router-dom";
 	import React, { Component } from "react";
 	import "bootstrap/dist/css/bootstrap.min.css";
@@ -71,15 +66,14 @@ After install router package, we could add the routing configuration in App.js. 
 		}
 	}
 	export default App;
-</q>
+
 Among them, Route tag means new route to be added to the application. <q>path</q> and <q>component</q> attributes are used to configure connection between the paths/routes and components.
 
 ## Create Components
 Store below three components in the new directly src/components
 * todo_list.component.js
-<code>
 	import React, { Component } from 'react';
-export default class TodosList extends Component {
+  export default class TodosList extends Component {
     render() {
         return (
             <div>
@@ -87,12 +81,11 @@ export default class TodosList extends Component {
             </div>
         )
     }
-}
-</code>
+  }
+
 * edit_todo.component.js
-<code>
 	import React, { Component } from 'react';
-export default class EditTodo extends Component {
+  export default class EditTodo extends Component {
     render() {
         return (
             <div>
@@ -100,12 +93,12 @@ export default class EditTodo extends Component {
             </div>
         )
     }
-}
-</code>
+  }
+
 * create_todo.component.js
-<code>
+
 	import React, { Component } from 'react';
-export default class CreateTodo extends Component {
+  export default class CreateTodo extends Component {
     render() {
         return (
             <div>
@@ -113,49 +106,48 @@ export default class CreateTodo extends Component {
             </div>
         )
     }
-}
-</code>
+  }
 
 ## Create basic layout and Navigation
 We could extend bootstrap in the App.js file as following:
-<code>
+  
 	import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import CreateTodo from "./components/create-todo.component";
-import EditTodo from "./components/edit-todo.component";
-import TodosList from "./components/todos-list.component";
-import logo from "./logo.svg";
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <div className="container">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="http://elonhangyang.com" target="_blank">
-              <img src={logo} width="30" height="30" alt="elonhangyang.com" />
-            </a>
-            <Link to="/" className="navbar-brand">MERN-Stack Todo App</Link>
-            <div className="collpase navbar-collapse">
-              <ul className="navbar-nav mr-auto">
-                <li className="navbar-item">
-                  <Link to="/" className="nav-link">Todos</Link>
-                </li>
-                <li className="navbar-item">
-                  <Link to="/create" className="nav-link">Create Todo</Link>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <br/>
-          <Route path="/" exact component={TodosList} />
-          <Route path="/edit/:id" component={EditTodo} />
-          <Route path="/create" component={CreateTodo} />
-        </div>
-      </Router>
-    );
+  import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+  import "bootstrap/dist/css/bootstrap.min.css";
+  import CreateTodo from "./components/create-todo.component";
+  import EditTodo from "./components/edit-todo.component";
+  import TodosList from "./components/todos-list.component";
+  import logo from "./logo.svg";
+  class App extends Component {
+    render() {
+      return (
+        <Router>
+          <div className="container">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="http://elonhangyang.com" target="_blank">
+                <img src={logo} width="30" height="30" alt="elonhangyang.com" />
+              </a>
+              <Link to="/" className="navbar-brand">MERN-Stack Todo App</Link>
+              <div className="collpase navbar-collapse">
+                <ul className="navbar-nav mr-auto">
+                  <li className="navbar-item">
+                    <Link to="/" className="nav-link">Todos</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link to="/create" className="nav-link">Create Todo</Link>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <br/>
+            <Route path="/" exact component={TodosList} />
+            <Route path="/edit/:id" component={EditTodo} />
+            <Route path="/create" component={CreateTodo} />
+          </div>
+        </Router>
+      );
+    }
   }
-}
-export default App;
-</code>
+  export default App;
+
 The navigation bar is displayed with two menu items included (Todos and Create Todo). By default the output of TodosList component is shown because it was connected to the default route of the application.
