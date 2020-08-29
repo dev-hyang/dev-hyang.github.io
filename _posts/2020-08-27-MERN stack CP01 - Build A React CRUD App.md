@@ -29,30 +29,28 @@ MERN stack is very similar to MEAN stack where <strong>A</strong> stands for <q>
 
 ## Add Bootstrap To the React Project
 We need to add Bootstrap framework to build UI with Bootstrap's CSS libraries. Rewrite the App.js files with below contents:
+
   import React, { Component } from "react";
-	import "bootstrap/dist/css/bootstrap.min.css";
-
-	class App extends Component {
-		render(){
-
-			return (
-				<div className="container">
-					<h2>MERN-Stack Todo App</h2>
-				</div>
-			);
-		}
-	}
-	export default App;
+  import "bootstrap/dist/css/bootstrap.min.css";
+  class App extends Component {
+	    render(){
+		  return (
+			    <div className="container">
+				    <h2>MERN-Stack Todo App</h2>
+			    </div>
+		    );
+	    }
+  }
+  export default App;
 
 ## Set Up React Router
 <code>$npm install react-router-dom</code> After install router package, we could add the routing configuration in App.js. Again, we rewrite our App.js file by below contents:
+
 	import {BrowserRouter as Router, Route, Link } from "react-router-dom";
 	import React, { Component } from "react";
 	import "bootstrap/dist/css/bootstrap.min.css";
-
 	class App extends Component {
 		render(){
-
 			return (
 				<Router>
 					<Route path="/" exact, component={Todolist} />
@@ -71,8 +69,9 @@ Among them, Route tag means new route to be added to the application. <q>path</q
 
 ## Create Components
 Store below three components in the new directly src/components
-* todo_list.component.js
-	import React, { Component } from 'react';
+-todo_list.component.js
+
+  import React, { Component } from 'react';
   export default class TodosList extends Component {
     render() {
         return (
@@ -83,8 +82,9 @@ Store below three components in the new directly src/components
     }
   }
 
-* edit_todo.component.js
-	import React, { Component } from 'react';
+-edit_todo.component.js
+	
+  import React, { Component } from 'react';
   export default class EditTodo extends Component {
     render() {
         return (
@@ -95,9 +95,9 @@ Store below three components in the new directly src/components
     }
   }
 
-* create_todo.component.js
+-create_todo.component.js
 
-	import React, { Component } from 'react';
+  import React, { Component } from 'react';
   export default class CreateTodo extends Component {
     render() {
         return (
@@ -111,7 +111,7 @@ Store below three components in the new directly src/components
 ## Create basic layout and Navigation
 We could extend bootstrap in the App.js file as following:
   
-	import React, { Component } from "react";
+  import React, { Component } from "react";
   import { BrowserRouter as Router, Route, Link } from "react-router-dom";
   import "bootstrap/dist/css/bootstrap.min.css";
   import CreateTodo from "./components/create-todo.component";
