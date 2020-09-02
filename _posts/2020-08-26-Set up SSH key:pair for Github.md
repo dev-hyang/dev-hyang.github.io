@@ -11,6 +11,7 @@ tags:
     - Git
     - SSH
 ---
+<strong>Note</strong>:In Markdown, you can use empty row + tab space to make a code block. Markdown would auto wrap tab leading lines within &lt;pre&gt;&lt;code&gt;.<br/>
 ## Based on Github support QAs, we have two pre-steps:
 ### 1.[Check for existing key](https://docs.github.com/en/enterprise/2.13/user/articles/checking-for-existing-ssh-keys)
 ### 2.[Generate new key](https://docs.github.com/en/enterprise/2.13/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)

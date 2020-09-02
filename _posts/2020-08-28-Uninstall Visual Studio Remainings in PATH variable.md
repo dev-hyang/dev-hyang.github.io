@@ -11,6 +11,7 @@ tags:
     - PATH
     - Visual Studio
 ---
+<strong>Note</strong>:In Markdown, you can use empty row + tab space to make a code block. Markdown would auto wrap tab leading lines within &lt;pre&gt;&lt;code&gt;.<br/>
 Today I got a question when I tried to use 
 <code>$ for i in ${PATH//:/ }; do ls $i; done | sort | uniq | wc -l</code> to find how many commands there are in my MacOS system. However, it cast below issues:
 

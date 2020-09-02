@@ -11,6 +11,7 @@ tags:
     - React
     - CRUD
 ---
+<strong>Note</strong>:In Markdown, you can use empty row + tab space to make a code block. Markdown would auto wrap tab leading lines within &lt;pre&gt;&lt;code&gt;.<br/>
 ## What's MERN stack?
 - MERN stack is a set of full-stack techs. 
 	+ **N**ode.js: Node.js is a JavaScript runtime built on Chrome's v8 JavaScript engine. Node.js brings JavaScript to the server.
