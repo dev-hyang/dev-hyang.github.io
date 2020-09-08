@@ -9,7 +9,11 @@ catalog: true
 tags:
     - MERN
     - React
+    - Express
+    - MongoDB
+    - Node.js
     - CRUD
+    - REST
 ---
 <strong>Note</strong>:In Markdown, you can use empty row + tab space to make a code block. Markdown would auto wrap tab leading lines within &lt;pre&gt;&lt;code&gt;.<br/>
 ## What's MERN stack?

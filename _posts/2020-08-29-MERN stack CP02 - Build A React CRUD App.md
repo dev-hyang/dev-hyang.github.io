@@ -9,7 +9,11 @@ catalog: true
 tags:
     - MERN
     - React
+    - Express
+    - MongoDB
+    - Node.js
     - CRUD
+    - REST
 ---
 <strong>Note1</strong>:In Markdown, you can use empty row + tab space to make a code block. Markdown would auto wrap tab leading lines within &lt;pre&gt;&lt;code&gt;.<br/>
 <strong>Note2</strong>: We would like a better way to organize our project files, a better hierarchical way/design architecture. This is where I find the reference ->[How To Organize File Structure](https://stackoverflow.com/questions/51126472/how-to-organise-file-structure-of-backend-and-frontend-in-mern)
