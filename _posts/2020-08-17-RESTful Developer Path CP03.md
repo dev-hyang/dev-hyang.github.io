@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      2020-08-17-Designing RESTful APIs
-subtitle:   RESTful Developer Path 03
+title:      2020-08-17-RESTful Developer Path CP03
+subtitle:   Designing RESTful APIs
 date:       2020-08-17
 author:     BY Elon
 header-img: img/post-bg-coffee.jpg

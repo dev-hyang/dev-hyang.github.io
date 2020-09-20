@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      2020-08-14-HTTP Essential Training
-subtitle:   RESTful Developer Path 02
+title:      2020-08-14-RESTful Developer Path CP02
+subtitle:   HTTP Essential Training
 date:       2020-08-14
 author:     BY Elon
 header-img: img/post-bg-coffee.jpg
@@ -11,6 +11,9 @@ tags:
     - REST
     - HTTP
 ---
+Many Thanks to LinkedIn course [RESTful Developer Learning Path]().
+
+## Basics
 1. What's protocol?
 A protocol in information system means a system of rules that allow communication of information between different entities, like computers.
 2. What's hypertext?
@@ -36,7 +39,8 @@ A set of rules that allow web documents to be transferred back and forth in the 
 	- no default encryption
 - HTTP/2 is more secure and faster than 1.1 because it uses compression alg to speed up request, allows for multi-plexing, meaningful multiple files are sent over connect at the same time and requires an encrypted connection between the client and the server thru HTTPS.
 - HTTPS
-5. HTTP Terms
+
+## HTTP Terms
 - TCP
 short for *Transmission Control Protocol*, one of the main internet protocols used by the Wordl Wide Web, email, FTP, and remote administration.
 - IP
@@ -56,15 +60,15 @@ String of data passed back and forth between clients and servers to create a sta
 - Session
 clients and servers can share information about states by passing information back and forth, creating a session.
 
-6. HTTP flows
-	1. Client/Browser opens a TCP connection to the server to ensure data can be sent back and forth over the network and that the data sent from one end is put together the same way at the other end. If the connection happens over HTTPS, TLS-*[Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security#:~:text=Transport%20Layer%20Security%20(TLS)%2C,security%20over%20a%20computer%20network.)* certificates are exchanged to ensure only the computer and the server can encrypt and decrypt the transmitted data.
-	2. The browser sends an HTTP message. It always contains an HTTP method, like GET, PUT, DELETE or similar and a URL pointing at the requested resource. It can also contains headers like cookies or authentication data and data.
-	3. The server performs the requested actions and sends a response back to the browser. It can contain an HTTP status message, headers and requested data.
-	4. Once the HTTP response is received, The TCP connection is closed.
+## HTTP flows
+1. Client/Browser opens a TCP connection to the server to ensure data can be sent back and forth over the network and that the data sent from one end is put together the same way at the other end. If the connection happens over HTTPS, TLS-*[Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security#:~:text=Transport%20Layer%20Security%20(TLS)%2C,security%20over%20a%20computer%20network.)* certificates are exchanged to ensure only the computer and the server can encrypt and decrypt the transmitted data.
+2. The browser sends an HTTP message. It always contains an HTTP method, like GET, PUT, DELETE or similar and a URL pointing at the requested resource. It can also contains headers like cookies or authentication data and data.
+3. The server performs the requested actions and sends a response back to the browser. It can contain an HTTP status message, headers and requested data.
+4. Once the HTTP response is received, The TCP connection is closed.
 
-7. Anatomy of a URL
-	* Protocol declaration, like http or https
-	* Domain - a DNS registered name, usually pointing to a server
-	* Port - hidden by default :80 for http, :443 for https
-	* Resource path - a ideal path pointing to a resource
-	* URL queries - optional, like "?uid=123&udate=20201008" is used to track user id or filter contents or other actions.
+## Anatomy of a URL
+* Protocol declaration, like http or https
+* Domain - a DNS registered name, usually pointing to a server
+* Port - hidden by default :80 for http, :443 for https
+* Resource path - a ideal path pointing to a resource
+* URL queries - optional, like "?uid=123&udate=20201008" is used to track user id or filter contents or other actions.

@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      2020-08-21-Testing and Validating RESTful APIs
-subtitle:   RESTful Developer Path 04
+title:      2020-08-21-RESTful Developer Path CP04
+subtitle:   Testing and Validating RESTful APIs
 date:       2020-08-21
 author:     BY Elon
 header-img: img/post-bg-coffee.jpg
