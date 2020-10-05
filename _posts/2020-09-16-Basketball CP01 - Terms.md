@@ -32,6 +32,8 @@ set shot：立定投篮
 
 three-point shot：三分球
 
+clutch shot：关键投篮/进球
+
 ## Statistics of Game - 各种统计术语：
 assist：助功
 

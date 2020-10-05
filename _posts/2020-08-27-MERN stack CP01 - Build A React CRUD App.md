@@ -26,11 +26,11 @@ MERN stack is very similar to MEAN stack where <strong>A</strong> stands for <q>
 
 ## Set Up the File Structure for the App
 [Ref from to-organise-file-structure in MERN](https://stackoverflow.com/questions/51126472/how-to-organise-file-structure-of-backend-and-frontend-in-mern)
-* Step1, <code>$mkdir mern_todo_app</code>create a root folder, like mern_todo_app
-* Step2, <code>npm init -y</code> to initialize a new npm project inside of the top-level root folder
-* Step3, <code>$git init</code> to start a git repo locally
-* Step4, <code>$git remote add origin [SSH | HTTPS remote addr]</code> to push local repo to remote server
-* Step5, <code>npx create-react-app frontend/xxx</code> as below
+* Step1, <code>$ mkdir mern_todo_app</code>create a root folder, like mern_todo_app
+* Step2, <code>$ npm init -y</code> to initialize a new npm project inside of the top-level root folder
+* Step3, <code>$ git init</code> to start a git repo locally
+* Step4, <code>$ git remote add origin [SSH | HTTPS remote addr]</code> to push local repo to remote server
+* Step5, <code>$ npx create-react-app frontend/xxx</code> as below
 
 
 ## Set Up The React Application
@@ -39,7 +39,7 @@ MERN stack is very similar to MEAN stack where <strong>A</strong> stands for <q>
 	- You might met some issues with <q>gyp</q> command or X-code, CLT issues. Just ignore them. You would get a new project directory mern_todo_app and it have a default React app with all dependencies installed.
 	- How to push existing mern_todo_app directory to Github website?
 		- Go to your Github profile ,create a repo named mern_todo_app and then copy the SSH root path
-		- <code>$cd mern_todo_app</code>, use <code>$git remote -v</code> to check if there is already a remote repo on the cloud connected to current local repo. If not, then use <code>$git remote add origin {SSH remote address | HTTPS remote address}</code>
+		- <code>$ cd mern_todo_app</code>, use <code>$git remote -v</code> to check if there is already a remote repo on the cloud connected to current local repo. If not, then use <code>$ git remote add origin {SSH remote address | HTTPS remote address}</code>
 
 ## Add Bootstrap To the React Project
 We need to add Bootstrap framework to build UI with Bootstrap's CSS libraries. Rewrite the App.js files with below contents:
