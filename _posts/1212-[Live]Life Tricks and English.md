@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      2099-12-31-[Live]Life Tricks and English
+title:      1212-12-31-[Live]Life Tricks and English
 subtitle:   Ways to make life easier
-date:       2099-12-31
+date:       1212-12-31
 author:     BY Elon
 header-img: img/post-bg-life.png
 catalog: true
